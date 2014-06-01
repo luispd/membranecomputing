@@ -1,0 +1,135 @@
+\begin{thebibliography}{10}
+
+\bibitem{Alhazov2005}
+Artiom Alhazov, Rudolf Freund, and Marion Oswald.
+\newblock Tissue p systems with antiport rules and small numbers of symbols and
+  cells.
+\newblock In {\em Proceedings of the 9th international conference on
+  Developments in Language Theory}, DLT'05, pages 100--111, Berlin, Heidelberg,
+  2005. Springer-Verlag.
+
+\bibitem{Bernardini2006}
+Francesco Bernardini, Marian Gheorghe, Natalio Krasnogor, Ravie~C. Muniyandi,
+  Mario~J. P{\'e}rez-J\'{\i}menez, and Francisco~Jos{\'e} Romero-Campero.
+\newblock On p systems as a modelling tool for biological systems.
+\newblock In {\em Proceedings of the 6th international conference on Membrane
+  Computing}, WMC'05, pages 114--133, Berlin, Heidelberg, 2006.
+  Springer-Verlag.
+
+\bibitem{Busi2006}
+Nadia Busi and Claudio Zandron.
+\newblock Computing with genetic gates, proteins, and membranes.
+\newblock In {\em Proceedings of the 7th international conference on Membrane
+  Computing}, WMC'06, pages 250--265, Berlin, Heidelberg, 2006.
+  Springer-Verlag.
+
+\bibitem{Cavaliere2004}
+Matteo Cavaliere and Daniela Genova.
+\newblock P systems with symport/antiport of rules.
+\newblock {\em Journal of Universal Computer Science}, 10(5):540--558, 2004.
+
+\bibitem{Cavaliere2009}
+Matteo Cavaliere, Oscar~H. Ibarra, Gheorghe P\u{a}un, Omer Egecioglu, Mihai
+  Ionescu, and Sara Woodworth.
+\newblock Asynchronous spiking neural p systems.
+\newblock {\em Theor. Comput. Sci.}, 410(24-25):2352--2364, 2009.
+
+\bibitem{Cavaliere2008}
+Matteo Cavaliere and Ivan Mura.
+\newblock Experiments on the reliability of stochastic spiking neural p
+  systems.
+\newblock {\em Natural Computing}, 7(4):453--470, 2008.
+
+\bibitem{Chubb2006}
+Jonathan~R. Chubb, Tatjana Trcek, Shailesh~M. Shenoy, and Robert~H. Singer.
+\newblock Transcriptional pulsing of a developmental gene.
+\newblock {\em Current Biology}, 16(10):1018--1025, 2006.
+
+\bibitem{Elowitz2000}
+Michael~B Elowitz and Stanislas Leibler.
+\newblock {A synthetic oscillatory network of transcriptional regulators}.
+\newblock {\em Nature}, 403(6767):335--338, 2000.
+
+\bibitem{Gheorghe2010}
+Marian Gheorghe, Vincenzo Manca, and FranciscoJ. Romero-Campero.
+\newblock Deterministic and stochastic p systems for modelling cellular
+  processes.
+\newblock {\em Natural Computing}, 9(2):457--473, 2010.
+
+\bibitem{Gillespie1977}
+Daniel~T. Gillespie.
+\newblock Exact stochastic simulation of coupled chemical reactions.
+\newblock {\em The Journal of Physical Chemistry}, 81(25):2340--2361, 1977.
+
+\bibitem{Golding2005}
+I~Golding, J~Paulsson, SM~Zawilski, and EC~Cox.
+\newblock Real-time kinetics of gene activity in individual bacteria.
+\newblock {\em Cell}, 123(5):1025--36, 2005.
+
+\bibitem{Ionescu2006}
+Mihai Ionescu, Gheorghe P\u{a}un, and Takashi Yokomori.
+\newblock Spiking neural p systems.
+\newblock {\em Fundamenta Informaticae}, 71(2,3):279--308, 2006.
+
+\bibitem{Leporati2009}
+Alberto Leporati, Giancarlo Mauri, Claudio Zandron, Gheorghe P\u{a}un, and
+  Mario~J. P{\'e}rez-Jim{\'e}nez.
+\newblock Uniform solutions to sat and subset sum by spiking neural p systems.
+\newblock {\em Natural Computing}, 8(4):681--702, 2009.
+
+\bibitem{MartinVide2003}
+Carlos Mart\'{i}n-Vide, Gheorghe P\u{a}un, Juan Pazos, and Alfonso
+  Rodr\'{i}guez-Pat\'{o}n.
+\newblock Tissue p systems.
+\newblock {\em Theoretical Computer Science}, 296(2):295--326, 2003.
+
+\bibitem{Pan2009}
+Linqiang Pan and Gheorghe Paun.
+\newblock Spiking neural p systems with anti-spikes.
+\newblock {\em International Journal of Computers, Communications and Control},
+  4(3):273--282, 2009.
+
+\bibitem{PerezJimenez2006}
+Mario~J. P{\'e}rez-Jim{\'e}nez and Francisco~J. Romero-Campero.
+\newblock P systems, a new computational modelling tool for systems biology.
+\newblock In Corrado Priami and Gordon Plotkin, editors, {\em Transactions on
+  Computational Systems Biology VI}, volume 4220 of {\em Lecture Notes in
+  Computer Science}, pages 176--197. Springer Berlin Heidelberg, 2006.
+
+\bibitem{Paun2006}
+Andrei P\u{a}un, Mario~J. P{\'e}rez-Jim{\'e}nez, and Francisco~J.
+  Romero-Campero.
+\newblock Modeling signal transduction using p systems.
+\newblock In {\em Proceedings of the 7th international conference on Membrane
+  Computing}, WMC'06, pages 100--122, Berlin, Heidelberg, 2006.
+  Springer-Verlag.
+
+\bibitem{Paun2000}
+Gheorghe P\u{a}un.
+\newblock Computing with membranes.
+\newblock {\em Journal of Computer and System Sciences}, 61(1):108--143, 2000.
+
+\bibitem{Paun2001}
+Gheorghe P\u{a}un.
+\newblock P systems with active membranes: attacking np-complete problems.
+\newblock {\em J. Autom. Lang. Comb.}, 6(1):75--90, 2001.
+
+\bibitem{Raj2006}
+Arjun Raj, Charles~S Peskin, Daniel Tranchina, Diana~Y Vargas, and Sanjay
+  Tyagi.
+\newblock Stochastic mrna synthesis in mammalian cells.
+\newblock {\em PLoS Biol}, 4(10):e309, 2006.
+
+\bibitem{RomCamp2007}
+Francisco~J. Romero-Campero, Marian Gheorghe, Gabriel Ciobanu, John~M. Auld,
+  and Mario~J. P{\'e}rez-Jim{\'e}nez.
+\newblock Cellular modelling using p systems and process algebra.
+\newblock {\em Progress in Natural Science}, 17(4):375--383, 2007.
+
+\bibitem{RomCamp2008}
+Francisco~Jos{\'e} Romero-Campero and Mario~J. P{\'e}rez-Jim{\'e}nez.
+\newblock Modelling gene expression control using p systems: The lac operon, a
+  case study.
+\newblock {\em Biosystems}, 91(3):438--457, 2008.
+
+\end{thebibliography}
