@@ -16,6 +16,7 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
 	private IWorkbenchAction m_exitAction;
 	private IWorkbenchAction m_aboutAction;
 	private IWorkbenchAction m_launchSimulationAction;
+	private IWorkbenchAction m_membraneModelAction;
 	
     public ApplicationActionBarAdvisor(IActionBarConfigurer configurer) {
         super(configurer);
@@ -28,10 +29,13 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
     	register(m_aboutAction);
     	m_launchSimulationAction = new LaunchSimulationAction(window);
     	register(m_launchSimulationAction);
+    	m_membraneModelAction = new MembraneModelAction(window);
+    	register(m_membraneModelAction);
     }
 
     protected void fillMenuBar(IMenuManager menuBar) {
     	MenuManager fileMenu = new MenuManager("&File", "file");
+    	fileMenu.add(m_membraneModelAction);
     	fileMenu.add(m_exitAction);
     	MenuManager simulationMenu = new MenuManager("&Simulation", "simulation");
     	simulationMenu.add(m_launchSimulationAction);
@@ -47,6 +51,7 @@ public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
         IToolBarManager toolbar = new ToolBarManager(coolBar.getStyle());
         coolBar.add(toolbar);
         toolbar.add(m_launchSimulationAction);
+        toolbar.add(m_membraneModelAction);
     }
     
 }
