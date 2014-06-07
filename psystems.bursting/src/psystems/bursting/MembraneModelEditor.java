@@ -1,10 +1,9 @@
 package psystems.bursting;
 
-import java.awt.GridLayout;
-
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.layout.GridData;
+import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Text;
 import org.eclipse.ui.IEditorInput;
@@ -60,12 +59,16 @@ public class MembraneModelEditor extends EditorPart {
 	public void createPartControl(Composite parent) {
 		Composite top = new Composite(parent, SWT.NONE);
 		GridLayout layout = new GridLayout();
-		//top.setLayout(layout);
+		layout.marginWidth = 0;
+		layout.marginHeight = 0;
+		top.setLayout(layout);
 		
 		m_plinguaCode = new Text(top, SWT.BORDER | SWT.MULTI | SWT.WRAP);
 		m_plinguaCode.setLayoutData(new GridData(GridData.FILL, GridData.FILL, true, true));
 		m_plinguaCode.setBackground(m_plinguaCode.getDisplay().getSystemColor(SWT.COLOR_INFO_BACKGROUND));
 		m_plinguaCode.setForeground(m_plinguaCode.getDisplay().getSystemColor(SWT.COLOR_INFO_FOREGROUND));
+		
+		m_plinguaCode.setText("aaaaaaaaaaaa");
 
 	}
 

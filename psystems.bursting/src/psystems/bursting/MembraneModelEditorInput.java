@@ -27,7 +27,7 @@ public class MembraneModelEditorInput implements IEditorInput {
 	@Override
 	public String getName() {
 		// TODO Auto-generated method stub
-		return null;
+		return "membrane model file";
 	}
 
 	@Override
@@ -39,7 +39,7 @@ public class MembraneModelEditorInput implements IEditorInput {
 	@Override
 	public String getToolTipText() {
 		// TODO Auto-generated method stub
-		return null;
+		return "membrane model file";
 	}
 
 }
