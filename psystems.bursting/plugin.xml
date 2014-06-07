@@ -28,5 +28,14 @@
             id="psystems.bursting.perspective">
       </perspective>
    </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="psystems.bursting.MembraneModelEditor"
+            default="false"
+            id="psystems.bursting.editors.membraneModel"
+            name="MembraneModel">
+      </editor>
+   </extension>
 
 </plugin>
