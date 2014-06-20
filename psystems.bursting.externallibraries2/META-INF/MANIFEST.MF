@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Externallibraries2
+Bundle-SymbolicName: psystems.bursting.externallibraries2
+Bundle-Version: 1.0.0
+Export-Package: org.swtchart,
+ org.swtchart.ext,
+ org.swtchart.ext.internal,
+ org.swtchart.ext.internal.properties,
+ org.swtchart.internal,
+ org.swtchart.internal.axis,
+ org.swtchart.internal.compress,
+ org.swtchart.internal.series
