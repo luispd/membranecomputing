@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Plinguacore
+Bundle-SymbolicName: org.gnc.plinguacore
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.gnc.plinguacore.Activator
+Require-Bundle: org.eclipse.core.runtime,
+ psystems.bursting.externallibraries;bundle-version="1.0.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: org.gcn.plinguacore.parser,
+ org.gcn.plinguacore.parser.input,
+ org.gcn.plinguacore.simulator,
+ org.gcn.plinguacore.util,
+ org.gcn.plinguacore.util.psystem

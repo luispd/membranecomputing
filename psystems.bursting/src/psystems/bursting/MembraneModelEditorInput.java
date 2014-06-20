@@ -6,6 +6,12 @@ import org.eclipse.ui.IPersistableElement;
 
 public class MembraneModelEditorInput implements IEditorInput {
 
+	private String m_model;
+	
+	public MembraneModelEditorInput(String model) {
+		m_model = model;
+	}
+
 	@Override
 	public Object getAdapter(Class adapter) {
 		// TODO Auto-generated method stub
@@ -40,6 +46,11 @@ public class MembraneModelEditorInput implements IEditorInput {
 	public String getToolTipText() {
 		// TODO Auto-generated method stub
 		return "membrane model file";
+	}
+
+	public String getModelText() {
+		// TODO Auto-generated method stub
+		return m_model;
 	}
 
 }

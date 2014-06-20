@@ -37,5 +37,28 @@
             name="MembraneModel">
       </editor>
    </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            locationURI="menu:org.eclipse.ui.main.menu?after=additions">
+         <menu
+               id="psystems.bursting.menus.main"
+               label="File">
+            <command
+                  commandId="psystems.bursting.loadModel"
+                  label="Load Model"
+                  style="push">
+            </command>
+         </menu>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            defaultHandler="psystems.bursting.LoadModelHandler"
+            id="psystems.bursting.loadModel"
+            name="Load Model">
+      </command>
+   </extension>
 
 </plugin>

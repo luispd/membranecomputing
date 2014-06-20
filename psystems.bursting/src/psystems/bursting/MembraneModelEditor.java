@@ -68,7 +68,9 @@ public class MembraneModelEditor extends EditorPart {
 		m_plinguaCode.setBackground(m_plinguaCode.getDisplay().getSystemColor(SWT.COLOR_INFO_BACKGROUND));
 		m_plinguaCode.setForeground(m_plinguaCode.getDisplay().getSystemColor(SWT.COLOR_INFO_FOREGROUND));
 		
-		m_plinguaCode.setText("aaaaaaaaaaaa");
+		String modelText = ((MembraneModelEditorInput)getEditorInput()).getModelText();
+		
+		m_plinguaCode.setText(modelText);
 
 	}
 
