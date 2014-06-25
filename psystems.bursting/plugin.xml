@@ -19,6 +19,12 @@
             name="SimulationPlot"
             restorable="true">
       </view>
+      <view
+            class="psystems.bursting.SimulationTraceView"
+            id="psystems.bursting.simulationTrace"
+            name="SimulationTrace"
+            restorable="true">
+      </view>
    </extension>
    <extension
          point="org.eclipse.ui.perspectives">

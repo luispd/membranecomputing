@@ -8,5 +8,6 @@ public class Perspective implements IPerspectiveFactory {
 	public void createInitialLayout(IPageLayout layout) {
 		layout.setEditorAreaVisible(false);
 		layout.addView(SimulationPlotView.ID, IPageLayout.LEFT, 1.0f, layout.getEditorArea());
+		layout.addView(SimulationTraceView.ID, IPageLayout.BOTTOM, 1.0f, layout.getEditorArea());
 	}
 }
