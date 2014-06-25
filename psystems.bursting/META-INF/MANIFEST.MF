@@ -7,5 +7,5 @@ Bundle-Activator: psystems.bursting.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.gnc.plinguacore;bundle-version="1.0.0",
- psystems.bursting.externallibraries2;bundle-version="1.0.0"
+ org.swtchart;bundle-version="0.9.0"
 Bundle-ActivationPolicy: lazy
